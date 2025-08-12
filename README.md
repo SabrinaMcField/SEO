@@ -49,6 +49,10 @@ This project analyzes search console data to uncover the SEO factors that most i
 
 ---
 
-## Contact
+##  Contact  
+Sabrina McField  
+📍 Atlanta, GA (Hybrid/Remote)  
+✉️ sabrinamcfield@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/sabrinamcfield) | [GitHub](https://github.com/SabrinaMcField)
 
 
