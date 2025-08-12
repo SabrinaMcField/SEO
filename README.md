@@ -73,7 +73,7 @@ This project analyzes search console data to uncover the SEO factors that most i
 ├── data.csv # Cleaned dataset with SEO metrics for analysis
 ├── images/ # Folder containing project visualizations
 │ ├── regression_clicks.png # Feature importance plot for predicting clicks
-│ ├── regression_impressions.png# Feature importance plot for predicting impressions
+│ ├── regression_impressions.png # Feature importance plot for predicting impressions
 │ └── ... # Additional plots from EDA and correlation analysis
 ├── README.md # Project overview, methodology, and navigation guide
 └── seo_project_notebook.ipynb # Full Jupyter Notebook analysis workflow
