@@ -35,6 +35,26 @@ This project analyzes search console data to uncover the SEO factors that most i
 
 ---
 
+##  Visual Insights
+
+<p align="center">
+  <img src="images/regression_clicks.png" width="600" alt="Feature Importance for Predicting Clicks"/>
+</p>
+>
+> **Figure: Feature Importance for Predicting Clickss**
+> 
+> This figure displays the feature importance scores from the regression model for predicting <code>clicks</code>. The analysis identifies <code>link_score</code> as the most influential factor, followed closely by <code>in_links</code> and <code>folder_depth</code>, indicating that backlink quality, backlink quantity, and site structure significantly impact click performance. <code>meta_description_length</code> and <code>word_count</code> also contribute moderately, while <code>out_links</code> has the least influence on driving clicks.
+> 
+<p align="center">
+  <img src="images/regression_impressions.png" width="600" alt="Feature Importance for Predicting Impressions"/>
+</p>
+>
+> **Figure: Feature Importance for Predicting Impressions**
+> 
+> This figure illustrates the feature importance scores from the regression model for predicting <code>impressions</code>. The results show that <code>in_links</code> is the most influential factor, followed by <code>link_score</code> and <code>position</code>, indicating that backlink quantity, backlink quality, and search ranking position play the largest roles in determining visibility. Other features like <code>word_count</code>, <code>title_length</code>, and <code>response_time</code> have moderate impact, while <code>folder_depth</code> and <code>h1_length</code> contribute the least.
+
+---
+
 ## Recommendations
 1. **Boost backlink quality and quantity** — strengthen <code>link_score</code> and <code>in_links</code>  
 2. **Improve snippets for mid-range positions** — optimize <code>title_length</code> and <code>meta_description_length</code> to lift CTR  
@@ -46,6 +66,17 @@ This project analyzes search console data to uncover the SEO factors that most i
 - **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)  
 - **Jupyter Notebook**  
 - **SEO Metrics** (CTR, position, impressions analysis)  
+
+---
+
+## Repository Structure
+├── data.csv # Cleaned dataset with SEO metrics for analysis
+├── images/ # Folder containing project visualizations
+│ ├── regression_clicks.png # Feature importance plot for predicting clicks
+│ ├── regression_impressions.png# Feature importance plot for predicting impressions
+│ └── ... # Additional plots from EDA and correlation analysis
+├── README.md # Project overview, methodology, and navigation guide
+└── seo_project_notebook.ipynb # Full Jupyter Notebook analysis workflow
 
 ---
 
