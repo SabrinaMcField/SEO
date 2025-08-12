@@ -1,4 +1,4 @@
-# SEO Performance Audit & Optimization Strategy
+# SEO Performance Analysis & Optimization Strategy
 
 This project analyzes search console data to uncover the SEO factors that most influence **clicks** and **impressions**. Using data cleaning, exploratory data analysis (EDA), visualizations, and statistical modeling, it identifies key drivers of performance and provides actionable recommendations.
 
