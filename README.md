@@ -2,6 +2,9 @@
 
 This project analyzes search console data to uncover the SEO factors that most influence **clicks** and **impressions**. Using data cleaning, exploratory data analysis (EDA), visualizations, and statistical modeling, it identifies key drivers of performance and provides actionable recommendations.
 
+### 🔗 View the Dashboard
+[**Click here to explore the live SEO Performance Audit Dashboard**](https://public.tableau.com/views/SEOPerformanceAuditDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&publish=yes&showOnboarding=true&:display_count=n&:origin=viz_share_link)
+
 ---
 
 ## Project Goals
